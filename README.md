@@ -94,6 +94,7 @@ public class TicTacToe{
         System.out.println(" computer will be " + PIECE_TWO + ".");
         String playerName = getName(scan, "1");
         //while(!winner(board)){
+        //TODO: finish this section when winner method is done
             int choice = getInput(scan, playerName, board);
             checkChoice(choice, scan, playerName, board);
         //}
@@ -120,8 +121,8 @@ public class TicTacToe{
         choice = checkChoice(choice);
         updateBoard(choice);
         if(!winner(board)){
+        //TODO: finish this section when winner method is done
             choice = getInput(scan, nameTwo, board);
         }
-    }
     }
 }

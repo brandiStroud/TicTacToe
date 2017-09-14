@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-/**
+/*
  * This is a code that runs the game tic tac toe
  * this is a personal project
  * it will prompt the user for a move using text and a scanner
@@ -122,5 +122,6 @@ public class TicTacToe{
         if(!winner(board)){
             choice = getInput(scan, nameTwo, board);
         }
+    }
     }
 }
